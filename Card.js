@@ -1,13 +1,16 @@
 class Card{
-    constructor(config){
-        this.name = config.name;
-        this.type = config.type;
-        this.cost = config.cost;
-        this.status = config.status;
-        this.damage = config.damage;
-        this.aoe = config.aoe;
-        this.statusType = config.statusType;
-        this.statusDuration = config.statusDuration;
+    constructor(name,type,cost,damage,aoe,statusType,statusDuration,statusDamage,block,description){
+        this.name = name;
+        this.type = type;
+        this.cost = cost;
+        this.status = false;
+        this.damage = damage;
+        this.aoe = aoe;
+        this.statusType = statusType;
+        this.statusDuration = statusDuration;
+        this.statusDamage = statusDamage;
+        this.block = block;
+        this.description = description;
 
     }
     
