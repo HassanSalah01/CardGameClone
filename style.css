@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.enemy{
+    width:80%;
+    height:30vh;
+    background-color:aqua;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.enemy-cont{
+    width:100%;
+    height:100%;
+    background-color:bisque;
+    display:flex;
+
+}
+.enemy-pic{
+    width:30%;
+    height:100%;
+    background-color:rgb(23, 16, 116);
+}
+.enemy-stat{
+    width:70%;
+    height:100%;
+    background-color:rgb(48, 6, 22);   
+}
+#enemy-health-bar{
+    width:80%;
+    height:12vh;
+    margin-left: 10%;
+
+}
+.enemy-info{
+    display:flex;
+    justify-content: space-evenly;
+    height: 50%;
+    background-color:bisque;
+    width:40%;
+    margin-left: 30%;
+
+}
+.enemy-status{
+    border:5px solid red;
+    background-color: blue;
+    padding:12% ;
+    text-align:center
+}
+.enemy-next-attack{
+    border:5px solid red;
+    background-color: blue;
+    padding:12% ;
+    text-align:center
+}
+
+.info{
+    width:80%;
+    height:30vh;
+    background-color:rgb(16, 26, 26);
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.player{
+    width:80%;
+    height:32vh;
+    background-color:rgb(58, 5, 59);
+    margin: 0 auto;
+}

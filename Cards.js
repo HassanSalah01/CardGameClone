@@ -9,7 +9,7 @@ class Cards{
         let bash = new Card("Bash","Attack",2,8,true,1,1,0,0,"Deal 8 Damage , Apply 2 Vulnerable");
         let defend = new Card("Defend","Skill",1,0,false,0,0,0,5,"Gain 5 block");
         let strike = new Card("Strike","Attack",1,6,false,0,0,0,0,"Deal 6 damge");
-        return [bash,defend,strike];
+        return [bash,defend,defend,defend,defend,strike,strike,strike,strike,strike];
     }
     attackCards(){
         let ironWave = new Card("Iron Wave","Attack",1,5,false,0,0,0,5,"Gain 5 block,Deal 5");

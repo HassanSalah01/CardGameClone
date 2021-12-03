@@ -11,7 +11,6 @@ class Card{
         this.statusDamage = statusDamage;
         this.block = block;
         this.description = description;
-
     }
     
 }
